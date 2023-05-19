@@ -27,6 +27,7 @@ class ecomPage {
 		placeOrder: () => cy.get('#place_order'),
 		terms: () => cy.get('#terms'),
 		thankYouMsg: () => cy.get('.woocommerce-thankyou-order-received'),
+		logout: () => cy.get('.woocommerce-MyAccount-content > :nth-child(2) > a'),
 	};
 
 	typeUserName = uName => this.elements.userNameInput().type(uName);

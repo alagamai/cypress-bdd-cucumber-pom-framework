@@ -36,7 +36,7 @@ Cypress.Commands.add('register', data => {
 		console.log('returned text **** : ' + t.text());
 		expect(t.text()).to.be.equal(data[0].uName);
 	});
-	cy.get('.woocommerce-MyAccount-content > :nth-child(2) > a').click();
+	ecomPage.elements.logout().click();
 });
 
 Cypress.Commands.add('generate_fixture_file', () => {
