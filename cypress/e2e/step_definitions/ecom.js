@@ -42,11 +42,12 @@ Then(
 	}
 );
 
-Then('I do the checkout successfully', () => {
+When('I checkout the order items', () => {
+	ecomPage.elements.cartIcon().click();
 	ecomPage.elements.checkout().click();
 });
 
-Then('I enter all the billing details and then place the order', dataTable => {
+When('I enter all the billing details and then place the order', dataTable => {
 	// | BillingFirstName | BillingLastName | StreetAddress | City | PostalCode | Phone |
 	// | Aashish | Khetarpal | 77 | Gurgaon | 122001 | 7777777777 |
 

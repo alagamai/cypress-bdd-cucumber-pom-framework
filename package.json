@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"cy:run-all-tags": "sudo npx cypress run --headed --env TAGS='@regression or @smoke'",
+		"cy:run-regression-tag": "sudo npx cypress run --headed --env TAGS='@regression'"
 	},
 	"keywords": [],
 	"author": "",

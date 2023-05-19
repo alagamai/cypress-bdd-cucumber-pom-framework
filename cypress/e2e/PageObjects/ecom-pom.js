@@ -15,6 +15,7 @@ class ecomPage {
 		sizeDropDown: () => cy.get('#pa_size'),
 		addQty: () => cy.get('.qty-increase'),
 		addToCart: () => cy.get('.single_add_to_cart_button'),
+		cartIcon: () => cy.get('.cart-name-and-total'),
 		cartNameTotal: () => cy.get('.cart-name-and-total'),
 		checkout: () => cy.get('.wc-proceed-to-checkout > .checkout-button'),
 		billingFirstName: () => cy.get('#billing_first_name'),
