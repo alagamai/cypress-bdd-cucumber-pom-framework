@@ -19,4 +19,6 @@ NodeJS: https://nodejs.org/en/download
     npm run cy:run-all-tags - to run scenarios of all tags: regression or smoke
     
     npm run cy:run-regression-tag - to run scenarios of tag: regression  
-
+    
+ # Application under test 
+ https://shop.demoqa.com/
