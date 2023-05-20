@@ -13,6 +13,8 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+	//https://cloud.cypress.io/
+	projectId: '4j6bop',
 	e2e: {
 		specPattern: '**/*.feature',
 		setupNodeEvents,

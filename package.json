@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"cy:run-all-tags": "sudo npx cypress run --headed --env TAGS='@regression or @smoke'",
-		"cy:run-regression-tag": "sudo npx cypress run --headed --env TAGS='@regression'"
+		"cy:run-all-tags": "sudo npx cypress run --env TAGS='@regression or @smoke' --record --key e96a92b1-c947-49b0-b49a-93feaf791859",
+		"cy:run-regression-tag": "sudo npx cypress run --env TAGS='@regression' --record --key e96a92b1-c947-49b0-b49a-93feaf791859"
 	},
 	"keywords": [],
 	"author": "",
