@@ -15,5 +15,10 @@ NodeJS: https://nodejs.org/en/download
 3. To install all the project dependencies execute 
     npm i
 4. To run the test execute
-    npm run cy:run-all-tags - to run scenarios of all tags - regression and smoke
-    npm run cy:run-regression-tag - to run scenarios of tag - regression  
+
+    npm run cy:run-all-tags - to run scenarios of all tags: regression or smoke
+    
+    npm run cy:run-regression-tag - to run scenarios of tag: regression  
+    
+ # Application under test 
+ https://shop.demoqa.com/
