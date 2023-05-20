@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress');
 const preprocessor = require('@badeball/cypress-cucumber-preprocessor');
 const browserify = require('@badeball/cypress-cucumber-preprocessor/browserify');
+const cypress = require('cypress');
 
 async function setupNodeEvents(on, config) {
 	// This is required for the preprocessor to be able to generate JSON reports after each run, and more,
