@@ -25,5 +25,3 @@ NodeJS: https://nodejs.org/en/download
  
  # Screenshots
 [![Watch the video](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png)](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Demo-Video.mov)
-<video src='https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Demo-Video.mov' width=180/>
-
