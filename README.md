@@ -24,5 +24,5 @@ NodeJS: https://nodejs.org/en/download
  https://shop.demoqa.com/
  
  # Screenshots
-![cypress-cloud-runner-report](file:///Users/alagammainagappan/Desktop/Cloud-Dashboard-Report.png "cypress-cloud-runner-report")
+![cypress-cloud-runner-report](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png "cypress-cloud-runner-report")
 
