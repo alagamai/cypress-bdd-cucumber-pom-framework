@@ -22,3 +22,7 @@ NodeJS: https://nodejs.org/en/download
     
  # Application under test 
  https://shop.demoqa.com/
+ 
+ # Screenshots
+![cypress-cloud-runner-report](file:///Users/alagammainagappan/Desktop/Cloud-Dashboard-Report.png "cypress-cloud-runner-report")
+
