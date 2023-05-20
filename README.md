@@ -25,3 +25,24 @@ NodeJS: https://nodejs.org/en/download
  
  # Screenshots
 [![Watch the video](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Cloud-Dashboard-Report.png)](https://github.com/alagamai/cypress-bdd-cucumber-pom-framework/blob/main/cypress/link-to-readme/Demo-Video.mov)
+
+ # steps to integrate cypress with bdd cucumber 
+ 
+Step#1 Npm install —save-dev @badeball/cypress-cucumber-preprocessor
+Step#2 Add below lines in cypress.config.js
+const preprocessor = require('@badeball/cypress-cucumber-preprocessor');
+const browserify = require('@badeball/cypress-cucumber-preprocessor/browserify');
+const cypress = require('cypress');
+async function setupNodeEvents(on, config) {
+    // This is required for the preprocessor to be able to generate JSON reports after each run, and more,
+    await preprocessor.addCucumberPreprocessorPlugin(on, config);
+    on('file:preprocessor', browserify.default(config));
+    // Make sure to return the config object as it might have been modified by the plugin.
+    return config;
+}
+Steps#3 add the below line in cypress.config.js
+        specPattern: '**/*.feature',
+Step#4 create a folder “step_definitions” under cypress/e2e/ 
+Step#5 add a feature file “ecom.feature” under folder “step_definitions”.  Add Feature (test suite name), scenario (test case name), Given, When , Then in feature file
+Step#6  add js file with same name “ecom.js” under folder “step_definitions”. Link step definitions for Given, When, Then
+Step#7 in eco.js,  import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
