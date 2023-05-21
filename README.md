@@ -1,4 +1,4 @@
-# Session storage, local storage, cookies storage testing using Cypress comammnds 
+# Cypress BDD cucumber and page object design framework 
 
 # Prerequisites
 
@@ -29,6 +29,7 @@ NodeJS: https://nodejs.org/en/download
  # steps to integrate cypress with bdd cucumber 
  
 Step#1 Npm install —save-dev @badeball/cypress-cucumber-preprocessor
+In latest install  sudo npm install @cypress/browserify-preprocessor as well to get rid of dependency error 
 
 Step#2 Add below lines in cypress.config.js
 
